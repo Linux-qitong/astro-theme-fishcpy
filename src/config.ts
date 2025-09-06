@@ -12,7 +12,7 @@ import type {
 // ----------------------------------------------------------
 
 export const siteConfig: SiteConfig = {
-	title: "fishcpy的小破站",
+	title: "fishcpy主题",
 	subtitle: "",
 	lang: "zh_CN", // 可选值: 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
@@ -208,7 +208,6 @@ export const licenseConfig: LicenseConfig = {
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	// 注意：某些样式(如背景色)会被覆盖，请查看astro.config.mjs文件
-	// 请选择深色主题，因为当前博客主题仅支持深色背景
 	theme: "github-dark",
 };
 
@@ -219,11 +218,11 @@ export const commentConfig: CommentConfig = {
 	type: "artalk",
 	twikoo: {
 		envId:
-			"https://fishcpy-cloud-twkioo-1-2-3-4-5-6-7-8-9-10-11-12-13.fis.ink/",
+			"https://twikoo.example.com/",
 	},
 	artalk: {
 		server: "https://artalk.fis.ink",
-		site: "fishcpy的小破站",
+		site: "fishcpy主题",
 		darkMode: false, // 强制浅色模式，不跟随浏览器主题
 	},
 };

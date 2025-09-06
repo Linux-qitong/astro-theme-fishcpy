@@ -1,18 +1,7 @@
 ---
 import { getEntry, render } from "astro:content";
 import Markdown from "@components/misc/Markdown.astro";
-
-// friends.json文件已被删除，使用空数组
-const items: Array<{
-	title: string;
-	desc: string;
-	imgurl: string;
-	siteurl: string;
-	category?: string;
-	tags?: string[];
-	openInNewTab?: boolean;
-}> = [];
-
+import items from "../assets/friends.json";
 import { layoutConfig } from "../config";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
